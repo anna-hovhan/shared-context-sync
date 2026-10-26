@@ -74,4 +74,9 @@ Then, in a chat inside the Claude Project you want to keep in sync, ask Claude t
 .claude-plugin/plugin.json                  Plugin manifest
 skills/shared-context-sync-setup/SKILL.md   The setup skill and the daily sync prompt
 assets/                                     README visual
+LICENSE                                     MIT License
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
