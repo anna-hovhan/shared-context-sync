@@ -1,0 +1,1 @@
+{"name": "drive-project-sync-setup", "description": "Set up a Claude Project that mirrors a Google Drive folder (plus a local folder linked into it). Guides the manual steps, then creates the daily sync task and runs the first sync."}
