@@ -40,7 +40,7 @@ The skill guides each manual step one at a time, checks it with tools before mov
 Clone this repo and add it as a plugin in Claude (Claude desktop app or Claude Code):
 
 ```bash
-git clone https://github.com/annahovhannisyan119/shared-context-sync.git
+git clone https://github.com/anna-hovhan/shared-context-sync.git
 ```
 
 Then, in a chat inside the Claude Project you want to keep in sync, ask Claude to run **drive-project-sync-setup**, or say something like "set up Drive to Project sync".
