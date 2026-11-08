@@ -25,6 +25,8 @@ Uploading files to a Project by hand goes stale the moment someone edits a doc. 
 3. **The Claude Project** has the Drive project folder attached, so it gets the shared files and your local files together.
 4. **A daily scheduled task** walks the Drive folder (native files, shortcuts and symlinks), writes one Markdown snapshot per file into the Project, removes snapshots for deleted files, and updates `claude/context.md` with a folder tree, a summary and an update log.
 
+**Local Interoperability:** Connect local AI models and agents directly to synced local folders, allowing desktop tools (e.g., Claude) to read and write directly to the shared drive.
+
 ## Set it up once
 
 The skill guides each manual step one at a time, checks it with tools before moving on, and does everything else itself.
