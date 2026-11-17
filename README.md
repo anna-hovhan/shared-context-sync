@@ -70,6 +70,10 @@ Then, in a chat inside the Claude Project you want to keep in sync, ask Claude t
 - If you move or rename the Drive project folder on disk, the task loses access. Rerun the skill or update the task's folder access.
 - Drive is the source of truth. The sync never edits your Drive or local files; it only writes to the Claude Project.
 
+## Decision
+
+Google Drive is the source of truth. The daily sync only writes to the Claude Project and never edits your Drive or local files, so a sync problem can't damage the originals.
+
 ## Repository layout
 
 ```
