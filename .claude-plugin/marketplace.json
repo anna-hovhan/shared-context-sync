@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "shared-context-sync",
+  "description": "Marketplace for the drive-project-sync-setup plugin",
+  "owner": {
+    "name": "Anna Hovhannisyan"
+  },
+  "plugins": [
+    {
+      "name": "drive-project-sync-setup",
+      "description": "Set up a Claude Project that mirrors a Google Drive folder, with a daily sync task.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
