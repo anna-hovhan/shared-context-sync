@@ -39,11 +39,14 @@ The skill guides each manual step one at a time, checks it with tools before mov
 
 ## Install
 
-Clone this repo and add it as a plugin in Claude (Claude desktop app or Claude Code):
+Install it from GitHub in Claude Code (or the Code tab of the Claude desktop app):
 
-```bash
-git clone https://github.com/anna-hovhann/shared-context-sync.git
 ```
+/plugin marketplace add anna-hovhan/shared-context-sync
+/plugin install drive-project-sync-setup@shared-context-sync
+```
+
+To receive updates automatically, turn on auto-update for the marketplace under `/plugin` → Marketplaces. Updates arrive with each new version (`version` in `.claude-plugin/plugin.json`), not with every commit.
 
 Then, in a chat inside the Claude Project you want to keep in sync, ask Claude to run **drive-project-sync-setup**, or say something like "set up Drive to Project sync".
 
