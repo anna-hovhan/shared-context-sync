@@ -1,3 +1,5 @@
+<p><img src="assets/shared-context-sync-card.svg" width="442" alt="shared-context-sync: a Claude plugin that keeps one Claude Project in sync with a shared Google Drive folder and your private local files, on a daily schedule." /></p>
+
 # Shared Context Sync
 
 **Bring your team's shared files and your private local files into one Claude Project, kept in sync with Google Drive and your computer automatically.**
